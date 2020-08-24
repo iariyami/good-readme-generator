@@ -54,8 +54,19 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {
+async function init() {
+    console.log("Welcome to the README.md file Generator");
+    try {
+        const answers = await promptUser();
 
+        const markDown = generateMarkdown(answers);
+
+        await writeFileAsync("README.md", markDown);
+
+        console.log("Successfully completed the README.md");
+    } catch (err) {
+        console.log(err);
+    }
 }
 
 // function call to initialize program
