@@ -6,15 +6,13 @@ function generateMarkdown(data) {
 
   # Table of Contents
 
-  <!-- toc -->
   * [Description](#description)
   * [License](#license)
   * [Usage](#usage)
   * [Installation](#installation)
   * [Contributors](#contributors)
-  * [Questions](#questions)
+  * [Contact](#contact)
   * [Credits](#credits)
-   <!-- toc stop -->
 
   # **Description**
   * ${data.description}
@@ -29,9 +27,10 @@ function generateMarkdown(data) {
   * ${data.installation}
 
   ## **Contributors**
-  *
+  * ${data.contributors}
 
-
+  ## **Contact**
+  * # " ' https://github.com/${data.username} ' "
 `;
 }
 
