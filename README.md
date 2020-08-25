@@ -1,2 +1,2 @@
-# good-readme-generator
-Good README Generator
+# Good README.md Generator
+

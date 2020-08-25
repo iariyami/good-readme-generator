@@ -26,13 +26,18 @@ function promptUser() {
         },
         {
             type: "input",
-            name: "contributors",
-            message: "Who are the contributors?",
+            name: "usage",
+            message: "What is this application used for?",
         },
         {
             type: "editor",
             name: "installation",
             message: "How do you install the application?",
+        },
+        {
+            type: "input",
+            name: "contributors",
+            message: "Who are the contributors?",
         },
         {
             type: "input",
@@ -43,12 +48,7 @@ function promptUser() {
             type: "input",
             name: "email",
             message: "Enter your email address",
-        },
-        {
-            type: "input",
-            name: "usage",
-            message: "What are the instructions for using this application?",
-        },
+        }
     ]);
 }
 
