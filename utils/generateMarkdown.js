@@ -17,7 +17,7 @@ function generateMarkdown(data) {
    <!-- toc stop -->
 
   # **Description**
-   > ${data.description}
+  * ${data.description}
 
   ## **License**
   * ${data.license}
@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   * ${data.installation}
 
   ## **Contributors**
- 
+  *
 
 
 `;
