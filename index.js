@@ -13,7 +13,7 @@ function promptUser() {
             message: "What is your project name?",
         },
         {
-            type: "editor",
+            type: "input",
             name: "description",
             message: "Provide a description of your project.",
         },
@@ -30,7 +30,7 @@ function promptUser() {
             message: "What is this application used for?",
         },
         {
-            type: "editor",
+            type: "input",
             name: "installation",
             message: "How do you install the application?",
         },
