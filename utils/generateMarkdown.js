@@ -17,20 +17,22 @@ function generateMarkdown(data) {
   # **Description**
   * ${data.description}
 
-  ## **License**
+  # **License**
   * ${data.license}
 
-  ## **Usage** 
+  # **Usage** 
   * ${data.usage}
 
-  ### **Installation**   
+  # **Installation**   
   * ${data.installation}
 
-  ## **Contributors**
+  # **Contributors**
   * ${data.contributors}
 
-  ## **Contact**
+  # **Contact**
   * # " ' https://github.com/${data.username} ' "
+
+  * ${data.email}
 `;
 }
 
