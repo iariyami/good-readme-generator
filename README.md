@@ -31,9 +31,9 @@
   * Ibrahim Riyami
 
   # **Contact**
-    * " https://github.com/iariyami "
+  * Website: https://github.com/iariyami
 
-  * iariyami@ncsu.edu
+  * Email: iariyami@ncsu.edu
 
   # **Credits**
   * nodejs.org
