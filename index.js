@@ -36,6 +36,11 @@ function promptUser() {
         },
         {
             type: "input",
+            name: "test",
+            message: "What are the instructions for testing the application?"
+        },
+        {
+            type: "input",
             name: "contributors",
             message: "Who are the contributors?",
         },

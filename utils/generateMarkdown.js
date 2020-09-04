@@ -10,6 +10,7 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Usage](#usage)
   * [Installation](#installation)
+  * [Test](#test)
   * [Contributors](#contributors)
   * [Contact](#contact)
   * [Credits](#credits)
@@ -18,7 +19,11 @@ function generateMarkdown(data) {
   * ${data.description}
 
   # **License**
-  * ${data.license}
+  * >  ![License: MIT](${
+    data.license === "MIT"
+      ? "https://img.shields.io/badge/License-MIT-yellow.svg"
+      : ""
+    })
 
   # **Usage** 
   * ${data.usage}
@@ -26,11 +31,14 @@ function generateMarkdown(data) {
   # **Installation**   
   * ${data.installation}
 
+  # **Test**
+  * ${data.test}
+
   # **Contributors**
   * ${data.contributors}
 
   # **Contact**
-  * " ' https://github.com/${data.github} ' "
+  * https://github.com/${data.github}
 
   * ${data.email}
 `;
