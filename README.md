@@ -14,24 +14,19 @@
   * [Credits](#credits)
 
   # **Description**
-  * The README.md generator is a node.js application that interacts with the users command line to create a README.md. The purpose of the application is to give the user an alternaive and more efficient way to create a README.md file.
+  * Creates a REDME.md file for the user
 
   # **License**
-  * >  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  *  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   # **Usage** 
-  * The application is mainly used for developers working on their application in their repositories to create README.md files that are formatted to appeal to other developers and users that will be using their application. It organizes the main information about the aspects of the application and presents it so that it is easy to follow.
-
-  # Screenshot
-  This is a screenshot of the working application.
-
-  ![](images/readmegenerator.png)
+  * The application is used to develop a README.mf file and format it in an organized way so that other users that go to your repository can have a better understanding of your application
 
   # **Installation**   
-  * 1. Select the folder of the README.md generator while in your command line.
+  * You install it by cloning it to your local device and running it
 
   # **Test**
-  * To test the aplication, you have to do an npm install when you access this application. You will need inquirer, util, and fs to test the application. This applicationalso needs to be run locally
+  * You eed to have node.js, inquirer, fs, and util to use this application
 
   # **Contributors**
   * Ibrahim Riyami
