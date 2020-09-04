@@ -22,6 +22,11 @@
   # **Usage** 
   * The application is mainly used for developers working on their application in their repositories to create README.md files that are formatted to appeal to other developers and users that will be using their application. It organizes the main information about the aspects of the application and presents it so that it is easy to follow.
 
+  # Screenshot
+  This is a screenshot of the working application.
+
+  ![](images/readmegenerator.png)
+
   # **Installation**   
   * 1. Select the folder of the README.md generator while in your command line.
 

@@ -19,7 +19,7 @@ function generateMarkdown(data) {
   * ${data.description}
 
   # **License**
-  * >  ![License: MIT](${
+  *  ![License: MIT](${
     data.license === "MIT"
       ? "https://img.shields.io/badge/License-MIT-yellow.svg"
       : ""
