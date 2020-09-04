@@ -8,33 +8,30 @@
   * [License](#license)
   * [Usage](#usage)
   * [Installation](#installation)
+  * [Test](#test)
   * [Contributors](#contributors)
   * [Contact](#contact)
   * [Credits](#credits)
 
   # **Description**
-  * The README.md generator is a node.js application that interact with the users command line to create a README.md. The purpose of this application is to give the user an alternative and more efficient way to create a README.md file.
+  * The README.md generator is a node.js application that interacts with the users command line to create a README.md. The purpose of the application is to give the user an alternaive and more efficient way to create a README.md file.
 
   # **License**
-  * MIT
+  * >  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   # **Usage** 
-  * The application is mainly used for developers working on their repositories and want to create a README.md file that is formatted to appeal to other developers and users that will be using their application. It organizes the main information about the aspects of the application and presents it so that it is easy to follow.
+  * The application is mainly used for developers working on their application in their repositories to create README.md files that are formatted to appeal to other developers and users that will be using their application. It organizes the main information about the aspects of the application and presents it so that it is easy to follow.
 
   # **Installation**   
   * 1. Select the folder of the README.md generator while in your command line.
-  2. Once you're in the folder, write "npm start" in your Command Line.
-  3. Follow the prompts. 
-  4. Your result should be a completed README.md.
+
+  # **Test**
+  * To test the aplication, you have to do an npm install when you access this application. You will need inquirer, util, and fs to test the application. This applicationalso needs to be run locally
 
   # **Contributors**
   * Ibrahim Riyami
 
   # **Contact**
-  * Website: https://github.com/iariyami
+  * https://github.com/iariyami
 
-  * Email: iariyami@ncsu.edu
-
-  # **Credits**
-  * nodejs.org
-  * https://www.npmjs.com/package/inquirer#question
+  * iariyami@ncsu.edu
